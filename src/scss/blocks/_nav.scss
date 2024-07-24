@@ -1,11 +1,35 @@
 .header__nav {
+  margin-left: 8px;
 }
 .nav {
-	font-size: 18px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 .nav__list {
-	display: flex;
-	column-gap: 30px;
+  display: flex;
+  column-gap: 37px;
+
+  & > li > a {
+    transition: all 0.2s ease-in-out;
+  }
+
+  & > li > a:hover {
+    color: #f97247;
+  }
 }
-.active {
+// .active {
+//   color: #f97247;
+// }
+
+.btn-lang {
+  border: solid 2px #ebf29d;
+  border-radius: 24px;
+  padding: 14px;
+  transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+
+  & + .active,
+  &:hover {
+    background-color: #f97247;
+  }
 }
