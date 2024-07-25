@@ -1,8 +1,8 @@
 .icon {
-  fill: transparent;
-  stroke: transparent;
-  width: 32px;
-  height: 32px;
+  // fill: transparent;
+  // stroke: transparent;
+  // // width: 32px;
+  // // height: 32px;
 }
 
 .icon--lang {
@@ -11,6 +11,61 @@
   margin-bottom: -2px;
   fill: #ebf29d;
   // stroke: #f97247;
+}
+
+.icon--fishka {
+  width: 99px;
+  height: 99px;
+  fill: #ebf29d;
+  stroke: #f97247;
+}
+
+.icon--soccer {
+  width: 99px;
+  height: 99px;
+  fill: #ebf29d;
+  stroke: #000000;
+}
+
+.icon--soccer-right {
+  fill: #ffffff;
+}
+
+.icon--logo__coin {
+  width: 99px;
+  height: 99px;
+  fill: #da7db5;
+  stroke: #000000;
+}
+
+.icon--logo__coin-mid {
+  fill: #ffffff;
+}
+
+.icon--timer {
+  fill: #da7db5;
+}
+
+.icon--crown {
+  fill: #ffffff;
+  stroke: #000000;
+}
+
+.icon--crown-big {
+  width: 99px;
+  height: 218px;
+  fill: #ffffff;
+  stroke: #000000;
+}
+
+.icon--world {
+  width: 99px;
+  height: 218px;
+  fill: #11f8a5;
+}
+
+.icon--logo__coin-left {
+  fill: #11f8a5;
 }
 
 .icon--id-card-line {
@@ -31,4 +86,11 @@
   &:hover {
     stroke: rgb(17, 193, 90);
   }
+}
+
+.big__coin {
+  width: 99px !important;
+  height: 218px !important;
+  fill: #11f8a5;
+  stroke: #000000;
 }

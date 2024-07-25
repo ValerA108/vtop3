@@ -1,8 +1,7 @@
 .docs {
   display: grid;
-  // row-gap: 40px;
   line-height: 1.5;
-
+  mask-image: linear-gradient(to bottom, #000 57%, transparent);
   p {
     margin: 1rem 0;
   }
