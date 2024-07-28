@@ -48,6 +48,7 @@
 		"@fancyapps/ui": "^5.0.35",
 		"avif-webp-checker": "^1.0.0",
 		"browser-sync": "^3.0.2",
+		"overlayscrollbars": "^2.9.2",
 		"swiper": "^11.0.6"
 	}
 }

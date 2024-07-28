@@ -20,6 +20,9 @@ importers:
       browser-sync:
         specifier: ^3.0.2
         version: 3.0.2
+      overlayscrollbars:
+        specifier: ^2.9.2
+        version: 2.9.2
       swiper:
         specifier: ^11.0.6
         version: 11.1.5
@@ -3925,6 +3928,9 @@ packages:
   os-locale@1.4.0:
     resolution: {integrity: sha512-PRT7ZORmwu2MEFt4/fv3Q+mEfN4zetKxufQrkShY2oGvUms9r8otu5HfdyIFHkYXjO7laNsoVGmM2MANfuTA8g==}
     engines: {node: '>=0.10.0'}
+
+  overlayscrollbars@2.9.2:
+    resolution: {integrity: sha512-iDT84r39i7oWP72diZN2mbJUsn/taCq568aQaIrc84S87PunBT7qtsVltAF2esk7ORTRjQDnfjVYoqqTzgs8QA==}
 
   p-cancelable@0.3.0:
     resolution: {integrity: sha512-RVbZPLso8+jFeq1MfNvgXtCRED2raz/dKpacfTNxsx6pLEpEomM7gah6VeHSYV3+vo0OAi4MkArtQcWWXuQoyw==}
@@ -9874,6 +9880,8 @@ snapshots:
   os-locale@1.4.0:
     dependencies:
       lcid: 1.0.0
+
+  overlayscrollbars@2.9.2: {}
 
   p-cancelable@0.3.0: {}
 
