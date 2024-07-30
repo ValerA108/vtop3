@@ -68,6 +68,141 @@
   fill: #11f8a5;
 }
 
+.icon--twitter {
+  width: 13px;
+  height: 12px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.icon--linkedin {
+  width: 12px;
+  height: 12px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.icon--youtube {
+  width: 13px;
+  height: 19px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.icon--tiktok {
+  width: 10px;
+  height: 12px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.icon--telegram {
+  width: 16px;
+  height: 18px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.wrap-icon__nav {
+  max-width: 32px;
+  max-height: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon--vk {
+  width: 13px;
+  height: 8px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  fill: #191d0a;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
+.icon--bg {
+  width: 32px;
+  height: 32px;
+  transition: all ease-in-out 0.3s;
+
+  fill: #f97247;
+
+  &:hover {
+    fill: #ebf29d;
+  }
+}
+
 .icon--id-card-line {
   fill: rgb(51, 51, 51);
 }
