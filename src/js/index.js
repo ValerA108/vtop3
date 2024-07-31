@@ -13,3 +13,7 @@ mobileNav();
 // Скролл
 import scrollbar from "./modules/scrollbar.js";
 osInstance();
+
+// Переключатель языка
+import switchLang from "./modules/switchLang.js";
+switchLang();
