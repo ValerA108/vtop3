@@ -267,3 +267,18 @@
 .blog-item__date p {
   float: left;
 }
+
+.mask-light1 {
+  position: absolute;
+  top: 0;
+  left: calc((100vw - 1940px) / 2);
+  width: 1533px;
+  height: 1265px;
+  z-index: 0;
+}
+
+.masck-light2 {
+  position: absolute;
+  right: calc((100vw - 1940px) / 2);
+  z-index: 0;
+}

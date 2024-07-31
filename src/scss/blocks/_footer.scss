@@ -3,12 +3,13 @@
   width: 100%;
   max-height: 186px;
   height: 100%;
-  background-color: rgb(39, 39, 39);
+  background-color: #311212;
   // padding: 50px 0;
   font-size: 32px;
   color: #fff;
   border: solid 4px #f97247;
   border-radius: 64px 64px 0 0;
+  z-index: 5;
 
   .footer-inner {
     display: flex;
